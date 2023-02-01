@@ -21,37 +21,39 @@ table, th, td {
 
 
 
-       <?php include "first.php"?>
+       
        <h1> 3.1</h1>
 
         <?php
-        echo "Zhenyu Yang";
+        echo "Zhenyu Yang". "<br>";
         echo "BBCAP22";
         ?>
   
 
-        <h1> Current Date </h1>
 
     
         <h1> 3.2</h1>
-       <h2> contact us <h2>
+       
         <?php
         
         $my_string = "Hello my name is Zhenyu, my group is team 6";
-        echo "$my_string Bobettta <br />";
-        echo "Hello world! My name is ";
+        echo "$my_string  <br />";
+        echo "Hello world! My name is \"Stephen\"";
         
         ?>
-        <h1> Current Date </h1>
 
-        <h1> 3.4 Variable in Php </h1>
-
+        <h1> 3.3 Current Date </h1>
         <?php
-        $title1="contact us - hamk - oy";
-        echo "<h1" . $title . "</h1>";        
+        echo "Today is " . date("d/m/Y") . "<br>";
+        ?>
+
+        <h1> 3.4 Variable title in Php </h1>
+        <?php
+        $title1="contact us - zhenyu yang";
+        echo "<h1> . $title1 . </h1>";        
         
         ?>
-        <h1> Current Date </h1>
+        
 
         <h1> 3.5 table in Php </h1>
 

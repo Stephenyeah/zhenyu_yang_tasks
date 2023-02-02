@@ -14,7 +14,8 @@
         <p>
             This is my first index in php.
         </p>
-        <?php include ‘footer.php' ?>
+        <?php include 'footer.php' ?>
+        
 
 </head>
 <body>

@@ -1,0 +1,35 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+a, .nav-link,.navbar-brand {
+    color: white;
+}
+
+th, td {
+    background-color: orange;
+}
+table, th, td {
+  border: 1.1px solid black;
+  border-collapse: collapse;
+}
+form{
+    display: grid;
+}
+input {
+    
+    padding-left: 2px ;
+    padding-right: 2px ;
+    margin-left: 12px ;
+    margin-right: 12px ;
+  }
+.col-12{
+    margin-left: 14px;
+    margin-top: 10px;
+  }
+
+hr{
+    color: rgb(152, 150, 150);
+}  

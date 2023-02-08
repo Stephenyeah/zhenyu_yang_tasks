@@ -33,3 +33,7 @@ input {
 hr{
     color: rgb(152, 150, 150);
 }  
+
+.col-sm-9{
+  margin: 8px;
+}

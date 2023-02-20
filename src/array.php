@@ -2,7 +2,7 @@
   
   <?php
   $title="Exercise 5";
-  include 'header.php' ?>
+  include 'layout/header.php' ?>
 
   <br>
     <h5>1. Write a php script to display courses as list.</h5>    
@@ -154,10 +154,10 @@
 
 
         
-        <div class="row">
-        <?php include 'footer.php' ?>
         
-      </div>
+        <?php include 'layout/footer.php' ?>
+        
+      
 
     
 

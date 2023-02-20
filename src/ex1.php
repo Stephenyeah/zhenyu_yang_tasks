@@ -1,19 +1,10 @@
 
   <?php 
    $title="Exercise 1";
-   include 'header.php' ?>
-  <style>
+   include 'layout/header.php' ?>
 
 
-  </style>
-  <body>
 
-
-  <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
-    <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
-      <h3>List of Tasks</h3>
-      some thing here
-    </div>
     <div class="col-sm-9">
   
       <h1> 3.1</h1>
@@ -23,6 +14,13 @@
       echo "BBCAP22";
       ?>
       <h1> 3.2</h1>
+
+      <script>
+        document.write("Hello world this is JavaScript");
+        </script>
+
+        <br>
+        <br>
 
       <?php
 
@@ -85,10 +83,10 @@
         
         
         
-        </body>  
+       
         
         <div class="row">
-        <?php include 'footer.php' ?>
+        <?php include 'layout/footer.php' ?>
         
       </div>
 

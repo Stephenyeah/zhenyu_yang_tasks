@@ -3,7 +3,7 @@
 <p>
     This is about us.
 </p>
-<?php include ‘footer.php' ?>
+<?php include '../layout/footer.php' ?>
 
     <?php
     $fname = "Zhenyu";

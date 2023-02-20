@@ -2,18 +2,12 @@
   
   <?php
   $title="Exercise 3";
-  include 'header.php' ?>
+  include 'layout/header.php' ?>
 
-  <body>
 
-    <div class="container" >
-    
-        <div class="row" style="margin-top: 10px; margin-bottom: 10px; margin-right: 5px;">
-            <div class="col-sm-3" style="background-color: rgba(228, 235, 194, 0.353);">
-            <h3>List of Tasks</h3>
-            some thing here
-            </div>
-            <div class="col-sm-9">
+ 
+      
+            
                 
             <h5> 1. Create a simple html form </h5> 
              
@@ -117,19 +111,18 @@
               
            
 
-    </div>
-    
-    </div>
+
+
        
  
         
         
-    </body>    
+
         
-        <div class="row">
-        <?php include 'footer.php' ?>
         
-      </div>
+        <?php include 'layout/footer.php' ?>
+        
+      
 
     
 

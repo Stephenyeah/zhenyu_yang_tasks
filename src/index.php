@@ -1,25 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
 
-    <?php
-        $title = "Home page";
-        $md = "Please use appropriate meta Description";
-        include 'header.php' ?>
-        <h1>My home page </h1>
-        <p>
-            This is my first index in php.
-        </p>
-        <?php include 'footer.php' ?>
-        
+<?php 
+   $title="Exercise 1";
+   include 'layout/header.php' ?>
 
-</head>
-<body>
     
-</body>
-</html>
+      <h2>What is this </h2> <img src="" align="right" height="150" width="150">
+      <p>heihei
+
+        <p>haha</p></p>
+      <br>
+      <h2>moimoi</h2>
+      <p>
+
+           I want to learn.
+
+      </p>
+      
+      <p>Article</p>
+      
+      <br>
+      <br>
+
+      <script>
+        document.write("Hello world this is JavaScript");
+        </script>
+
+  
+        
+<?php include 'layout/footer.php' ?>
+        
+    
+
+    
 

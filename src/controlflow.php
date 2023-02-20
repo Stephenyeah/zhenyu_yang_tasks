@@ -1,5 +1,5 @@
 <?php $title = "Exercise 4"; 
-include('header.php')?>
+include('layout/header.php')?>
 
 <br>
 
@@ -120,4 +120,4 @@ function submitAlert() {
 <br>
 <br>
 
-<?php include "footer.php" ?>
+<?php include "layout/footer.php" ?>

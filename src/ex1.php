@@ -1,11 +1,7 @@
 
   <?php 
    $title="Exercise 1";
-   include 'layout/header.php' ?>
-
-
-
-    <div class="col-sm-9">
+   include 'layout/header.php' ?>    
   
       <h1> 3.1</h1>
 
@@ -18,6 +14,7 @@
       <script>
         document.write("Hello world this is JavaScript");
         </script>
+        <input type="button" onclick="hello()" value = "Click Me">
 
         <br>
         <br>
@@ -31,19 +28,41 @@
       ?>
 
       <h1> 3.3 Current Date </h1>
+      
       <?php
       echo "Today is " . date("d/m/Y") . "<br>";
       ?>
 
       <h1> 3.4 Variable title in Php </h1>
+
       <?php
       $title1="contact us - zhenyu yang";
       echo "<h1> . $title1 . </h1>";        
 
       ?>
+      <script>
+        //window.alert
+        // window.alert("This wil trigger an alert box.");
+        // windows.alert(5+10);
+        document.write("Hello this is interesting");
+        </script>
 
 
       <h1> 3.5 table in Php </h1>
+      <button onclick = "add()"> Click to Add </button>
+      <hr>
+
+      <p id="place1" style="color:red; background-color:yellow;"> </p>
+      <span id="place2" style="color:red; background-color:green;"> </span>
+
+      <script>
+       document.getElementById("place1").innerHTML = "This will go to place1"; 
+       document.getElementById("place2").innerHTML = "This will go to span"; 
+        
+      </script>
+
+      <br>
+      <br>
 
       <?php
       $g1 = 5;
@@ -72,23 +91,23 @@
             <h1> 4 Screenshoot for the development enviroment </h1>
         
         <img src="images/screenshoots.png" alt="wrong" style="width: 70%;">
-           
-
-          </div>
-        </div>
-    
-
        
-
-        
-        
-        
        
-        
-        <div class="row">
+        <br>
+        <br>       
+
+
+        <h2>5. change the background color</h2>
+
+        <form>
+        <input type="color" name = "background" onchange="changeColor('background',this.value)">
+        </form>
+          
+              
+      
         <?php include 'layout/footer.php' ?>
         
-      </div>
+
 
     
 
